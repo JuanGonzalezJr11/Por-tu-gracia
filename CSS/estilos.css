@@ -1,0 +1,84 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgb(240, 176, 225), white);
+    margin-bottom: 40px;
+}
+.contenedor{
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    background: rgba(39, 39, 39, 0.4);
+}
+.contenedor h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor p{
+    font-family: 'Scheherazade New', serif;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    line-height: 20px;
+}
+.navbar{
+    margin: 0px auto 20px;
+    padding: 20px 0px;
+    width: 85%;
+    background: rgba(39, 39, 39, 0.4);
+    font-family: 'Scheherazade New', serif;
+    font-size: 18px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rbg(255, 255, 255);
+    background: transparent;
+    padding: 20px;
+}
+.navbar a:hover{
+    background:rgba(39, 39, 39, 0.4);
+}
+.navbar a:visited{
+    background:rgba(39, 39, 39, 0.4);
+    color:rgb(255, 255, 255);
+}
+.btn-contacto{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.btn-contacto a{
+    text-decoration-line: none;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    color:white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: rgb(39, 39, 39, 0.4);
+}
+footer p{
+    margin: 1px;
+    font-size: 13px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.imagen-portada{
+    margin: 0px auto;
+    padding: 0px;
+    height: 350px;
+    width: 85%;
+    display: block;
+}
